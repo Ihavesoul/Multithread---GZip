@@ -44,7 +44,7 @@ Use log4net for logging exceptions.
 
 ## Problems
 - Choose pattern *(solved)*
-- Load with a usefull CPU on 100% (bottle neck in HDD)
+- Load with a usefull CPU on 100% (bottle neck in HDD, WriteAsync & ReadAsync in GZip can be solved that, but that is TPL library)
 - How to get OutOfMemory? 
 - For a long time could not understand how to remove the 4 gb memory limit *(solved)*
 - Sync the threads *(solved)*
