@@ -42,9 +42,12 @@ Use log4net for logging exceptions.
 
 ## Problems
 - Choose pattern *(solved)*
-- Load with a usefull CPU on 100% 
+- Load with a usefull CPU on 100% (bottle neck in HDD)
 - How to get OutOfMemory? 
 - For a long time could not understand how to remove the 4 gb memory limit *(solved)*
 - Sync the threads *(solved)*
 - Handle Exceptions *(solved)*
 - Unit tests (try implement Unit Testing for evade file init but has some troubles with that *trouble : Infinity Loop in Unit Test*) *(rly need that?)*
+
+## Better algorithms
+https://github.com/icsharpcode/SharpZipLib/tree/master/src/ICSharpCode.SharpZipLib/GZip - this Repo don't have bottle neck on HDD and works fine. But that is very hard : D
