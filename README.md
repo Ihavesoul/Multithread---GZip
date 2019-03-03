@@ -27,10 +27,13 @@ Consumers:
 For synchronization threads was used **AutoResetEvent** and **Monitor**
 
 ## Algorithm:
+
 **Initialize the stream to read:**
 The file is broken into chunks, the chunks are in order, the one who has time is put in a queue,
+
 **Flow is compressed:**
 They are pulled out of the queue, archived, and then added to the dictionary, where the type is [chunk number, date array]
+
 **Stream to write to file:**
 We take out the key elements and put in the stream record.
 Restoring the sequence roughly.
