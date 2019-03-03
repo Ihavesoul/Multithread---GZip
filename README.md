@@ -1,6 +1,6 @@
 ## Multithread-GZIP
 
-This is test task for Veeam Software
+This is a test task for Veeam Software
 
 ## Description
 To write a console program in C #, designed for block-by-block compression and decompression of files using System.IO.Compression.GzipStream.
