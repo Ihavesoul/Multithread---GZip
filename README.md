@@ -17,10 +17,12 @@ The program code must comply with the principles of OOP and OOD (readability, di
 
 ## Task Vision
 Was used Producer/Consumer pattern.
+
 Producers:
 - **AbstractArchiver**
 - **Compress**
 - **Decompress**
+
 Consumers:
 - **ReadConsumer**
 - **WriteConsumer**
