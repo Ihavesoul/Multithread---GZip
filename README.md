@@ -25,7 +25,8 @@ Consumers:
 - **ReadConsumer**
 - **WriteConsumer**
 For synchronization threads was used **AutoResetEvent** and **Monitor**
-Algorithm:
+
+## Algorithm:
 **Initialize the stream to read:**
 The file is broken into chunks, the chunks are in order, the one who has time is put in a queue,
 **Flow is compressed:**
