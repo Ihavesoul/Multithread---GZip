@@ -44,6 +44,7 @@ namespace GZipTest.Archiver
             catch (Exception e)
             {
                 SingleLogger.log.Debug($"(Your exception is :{e.Message} , send a log file for us from the  folder /bin/Debug/myapp.log");
+                SingleLogger.log.Error($"(Your exception is :{e.Message} , send a log file for us from the  folder /bin/Debug/myapp.log");
                 HasError = e;
             }
         }
@@ -63,6 +64,7 @@ namespace GZipTest.Archiver
             catch (Exception e)
             {
                 SingleLogger.log.Debug($"(Your exception is :{e.Message} , send a log file for us from the  folder /bin/Debug/myapp.log");
+                SingleLogger.log.Error($"(Your exception is :{e.Message} , send a log file for us from the  folder /bin/Debug/myapp.log");
                 HasError = e;
             }
         }
@@ -82,6 +84,7 @@ namespace GZipTest.Archiver
             catch (Exception e)
             {
                 SingleLogger.log.Debug($"(Your exception is :{e.Message} , send a log file for us from the  folder /bin/Debug/myapp.log");
+                SingleLogger.log.Error($"(Your exception is :{e.Message} , send a log file for us from the  folder /bin/Debug/myapp.log");
                 HasError = e;
             }
         }

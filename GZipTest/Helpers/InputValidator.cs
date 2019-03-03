@@ -22,18 +22,18 @@ namespace GZipTest.Helpers
 
             if (args[0].ToLower() != "compress" && args[0].ToLower() != "decompress")
             {
-                Console.WriteLine("Invalid first argument");
+                Console.WriteLine("Invalid first argument choose of [compress/decompress]");
             }
 
             if (!infoFileIn.Exists || infoFileIn.Length == 0)
             {
-                Console.WriteLine("Invalid second argument");
+                Console.WriteLine("Invalid second argument, you must specify the file path if it exists");
                 return false;
             }
 
             if (infoFileOut.Exists)
             {
-                Console.WriteLine("Invalid third argument");
+                Console.WriteLine("Invalid third argument, you must specify the file path if it exists");
                 return false;
             }
 

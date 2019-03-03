@@ -57,12 +57,11 @@ namespace GZipTest.Archiver
             if (HasError != null)
             {
                 SingleLogger.log.Debug(HasError.Message);
-                Console.WriteLine($"(You have some troubles please check an error message {HasError.Message}");
+                SingleLogger.log.Error(HasError.Message);
             }
             else
             {
                 SingleLogger.log.Info("Completed");
-                Console.WriteLine("Successfully completed");
             }
         }
 
