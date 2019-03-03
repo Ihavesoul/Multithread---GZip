@@ -41,10 +41,10 @@ Restoring the sequence roughly.
 Use log4net for logging exceptions.
 
 ## Problems
-- Choose pattern
+- Choose pattern *(solved)*
 - Load with a usefull CPU on 100% 
 - How to get OutOfMemory? 
-- For a long time could not understand how to remove the 4 gb memory limit
-- Sync the threads
-- Handle Exceptions
-- Unit tests (try implement Unit Testing for evade file init but has some troubles with that *trouble : Infinity Loop in Unit Test*)
+- For a long time could not understand how to remove the 4 gb memory limit *(solved)*
+- Sync the threads *(solved)*
+- Handle Exceptions *(solved)*
+- Unit tests (try implement Unit Testing for evade file init but has some troubles with that *trouble : Infinity Loop in Unit Test*) *(rly need that?)*
