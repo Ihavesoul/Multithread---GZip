@@ -52,4 +52,4 @@ Use log4net for logging exceptions.
 - Unit tests (try implement Unit Testing for evade file init but has some troubles with that *trouble : Infinity Loop in Unit Test*, reason to revise architecture)
 - Maybe i have to create a custome ThreadPoll
 ## Better algorithms
-https://github.com/icsharpcode/SharpZipLib/tree/master/src/ICSharpCode.SharpZipLib/GZip - this Repo don't have bottle neck on HDD and works fine. But that is very hard for single person design and relize : D
+https://github.com/icsharpcode/SharpZipLib/tree/master/src/ICSharpCode.SharpZipLib/GZip - this Repo don't have bottle neck on HDD and works fine.
